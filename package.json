@@ -1,0 +1,20 @@
+{
+  "name": "demo-nextjs",
+  "version": "1.0.0",
+  "description": "NextJS Application",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "Alex Simisi Nta",
+  "keywords": [],
+  "dependencies": {
+    "next": "^12.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
