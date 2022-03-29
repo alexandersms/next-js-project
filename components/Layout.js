@@ -8,7 +8,7 @@ const layoutStyle = {
 
 function Layout(props) {
   return (
-    <div style={layoutStyle}>
+    <div style={layoutStyle} className="container">
       <Header {...props} />
       {props.children}
     </div>

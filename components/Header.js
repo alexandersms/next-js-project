@@ -30,8 +30,6 @@ function Header({ title }) {
             margin-right: 20px;
           }
           ul li a {
-            text-decoration: none;
-            color: #3498db;
             font-size: 18px;
             font-weight: 700;
           }
