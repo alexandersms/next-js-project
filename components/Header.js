@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function Links() {
+function Header() {
   return (
     <ul>
       <li>
@@ -13,4 +13,4 @@ function Links() {
   );
 }
 
-export default Links;
+export default Header;

@@ -1,11 +1,10 @@
-import Links from '../components/Links';
+import Layout from "../components/Layout";
 
 function HomePage() {
   return (
-    <div>
-      <Links />
+    <Layout>
       <h1>Welcome to NextJS !</h1>
-    </div>
+    </Layout>
   );
 }
 

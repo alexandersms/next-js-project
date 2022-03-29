@@ -1,11 +1,11 @@
-import Links from "../components/Links";
+import Layout from "../components/Layout";
+
 
 function about() {
   return (
-    <div>
-      <Links />
+    <Layout>
       <h1>About NextJS Page</h1>
-    </div>
+    </Layout>
   );
 }
 
