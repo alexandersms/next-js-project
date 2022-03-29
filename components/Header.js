@@ -7,6 +7,7 @@ function Header({ title }) {
       <Head>
         <title>{title}</title>
       </Head>
+      <img src="/tiktok.svg" alt="logo-tiktok" className="logo" />
       <ul>
         <li>
           <Link href="/">
