@@ -1,8 +1,9 @@
 import Layout from "../components/Layout";
 
 function HomePage() {
+  const title = "Home"
   return (
-    <Layout>
+    <Layout title={title}>
       <h1>Welcome to NextJS !</h1>
     </Layout>
   );

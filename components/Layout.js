@@ -6,11 +6,11 @@ const layoutStyle = {
   border: "1px solid #ddd",
 };
 
-function Layout({ children }) {
+function Layout(props) {
   return (
     <div style={layoutStyle}>
-      <Header />
-      {children}
+      <Header {...props} />
+      {props.children}
     </div>
   );
 }
