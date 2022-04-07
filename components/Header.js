@@ -19,6 +19,11 @@ function Header({ title }) {
             <a>About</a>
           </Link>
         </li>
+        <li>
+          <Link href="/posts">
+            <a>Blog</a>
+          </Link>
+        </li>
         <style jsx>{`
           ul {
             padding-left: 0;
